@@ -6,16 +6,16 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
     { title: '欢迎来到我的博客', url: 'https://eanyang7.com' },
-    { title: '看看我的知识管理系统', url: 'https://EanYang7.github.io' }
+    { title: '看看我的知识管理系统', url: 'https://EanYang7.com/doc' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享编程',
-  HERO_TITLE_2: '与思维认知',
-  HERO_TITLE_3: 'eanyang7.com',
-  HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HERO_TITLE_LINK: 'eanyang7.com',
+  HERO_TITLE_1: '分享技术',
+  HERO_TITLE_2: '与专业知识',
+  HERO_TITLE_3: '以及个人项目',
+  HERO_TITLE_4: '看一看',
+  HERO_TITLE_5: '我的个人知识库',
+  HERO_TITLE_LINK: 'https://eanyang7.com/doc',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
