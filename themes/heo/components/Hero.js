@@ -384,7 +384,7 @@ function TodayCard({ cRef, siteInfo }) {
         {/* 封面图 */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={siteInfo?.pageCover}
+          src={isCoverUp ? '/blog/images/heo/653AB13D32B92D75C6E745D7DF8FFBBD.jpg' : siteInfo?.pageCover}
           id='today-card-cover'
           className={`${
             isCoverUp ? '' : ' pointer-events-none'

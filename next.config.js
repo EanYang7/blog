@@ -54,6 +54,7 @@ function scanSubdirectories(directory) {
 }
 
 const nextConfig = {
+  basePath: '/blog',
   images: {
     // 图片压缩
     formats: ['image/avif', 'image/webp'],
